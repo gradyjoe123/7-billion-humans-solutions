@@ -1,11 +1,11 @@
 -- 7 Billion Humans (2056) --
 -- 5: An Important Decision --
 
-if w == datacube:
+if left == datacube:
 	a:
-	step w
+	step left
 	jump a
-endif
+else if
 b:
-step e
+step right
 jump b
